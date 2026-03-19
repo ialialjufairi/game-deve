@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     public GameObject player;        // Player object
     public GameObject groundSpawner; // Ground spawner
     public GameObject pauseButton;   // Top-left pause button
+    public GameObject quitButton;
 
     void Start()
     {
@@ -25,5 +26,13 @@ public class GameManager : MonoBehaviour
         player.SetActive(true);
         groundSpawner.SetActive(true);
         pauseButton.SetActive(true); // Show pause now
+        quitButton.SetActive(false);
     }
+
+    public void ExitGame()
+    {
+        Debug.Log("Game is exiting...");
+        Application.Quit();
+    }
+
 }
