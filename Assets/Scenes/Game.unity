@@ -795,11 +795,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 257e5e67c9bc8a8438f9a6b3ac896d5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startButton: {fileID: 46372485}
-  pauseButton: {fileID: 1668286253}
-  pauseMenu: {fileID: 574535570}
-  player: {fileID: 156017966}
-  groundSpawner: {fileID: 1671198471}
 --- !u!114 &579338433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -858,11 +853,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 257e5e67c9bc8a8438f9a6b3ac896d5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startButton: {fileID: 46372485}
-  pauseButton: {fileID: 1668286253}
-  pauseMenu: {fileID: 574535570}
-  player: {fileID: 0}
-  groundSpawner: {fileID: 0}
 --- !u!114 &579338437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1365,7 +1355,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start Game
+  m_Text: Play
 --- !u!222 &1204953656
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1598,7 +1588,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1463837225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1725,8 +1715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88edcd1048e2f4046b26560b8a86cf88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 156017967}
-  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1525955432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1753,8 +1741,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88edcd1048e2f4046b26560b8a86cf88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 156017967}
-  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &1588603534
 GameObject:
   m_ObjectHideFlags: 0
